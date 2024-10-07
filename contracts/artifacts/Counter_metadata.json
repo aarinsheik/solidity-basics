@@ -109,6 +109,44 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "findEvenOrOdd",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_val",
+						"type": "uint256"
+					}
+				],
+				"name": "findIndex",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -155,6 +193,19 @@
 				"name": "incrementCount",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -278,11 +329,11 @@
 	},
 	"sources": {
 		"contracts/Counters.sol": {
-			"keccak256": "0x64f22c8db69b306e9f102fed911b7ecd88f78155620fc4e4fa2c7554f8eb1b59",
+			"keccak256": "0x98e55b4ae334ced3770dfa658e015b6a32de94b80efdc2acc959f86bdcac0f7e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://be4b04c2831325b3e469cf9d97a486a01c380ce4682eca43ba12b48b01d4af64",
-				"dweb:/ipfs/Qmavm2xzMBv7Cy4GUj1QvsXLvZHcvNxMQXxajxfecSQ597"
+				"bzz-raw://e75379207fc4a4bb192284511ec7a7581f3a1cdadb4b6d8a03cb7b0edcb87c91",
+				"dweb:/ipfs/QmRv6i2PMSkaSLzoKaFGT6ffFF1KX3pjc4rpy8pmSrHpsz"
 			]
 		}
 	},
