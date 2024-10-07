@@ -12,6 +12,120 @@
 			},
 			{
 				"inputs": [],
+				"name": "NumbersLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_usn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_college",
+						"type": "string"
+					}
+				],
+				"name": "addColleges",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "fr",
+						"type": "string"
+					}
+				],
+				"name": "addFruits",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_val",
+						"type": "uint256"
+					}
+				],
+				"name": "addNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_usn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_college",
+						"type": "string"
+					}
+				],
+				"name": "addStudents",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "fruits",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "get10",
 				"outputs": [
 					{
@@ -70,6 +184,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "s1",
 				"outputs": [
@@ -87,6 +220,30 @@
 						"internalType": "string",
 						"name": "college",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "twoDArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -121,11 +278,11 @@
 	},
 	"sources": {
 		"contracts/Counters.sol": {
-			"keccak256": "0x7ef8edf79b56043bbb02132bb0c2ca50fff80e1d13a513110c772804d4d7bc7b",
+			"keccak256": "0x64f22c8db69b306e9f102fed911b7ecd88f78155620fc4e4fa2c7554f8eb1b59",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9fd68e0795b4b9912bfa4919fb684471838890c3e7fbd600a4d4bd6e1695d058",
-				"dweb:/ipfs/QmaeU4pcSwbQXcHfdShdb4bbu344WyqNnzdkv22QJFGiwr"
+				"bzz-raw://be4b04c2831325b3e469cf9d97a486a01c380ce4682eca43ba12b48b01d4af64",
+				"dweb:/ipfs/Qmavm2xzMBv7Cy4GUj1QvsXLvZHcvNxMQXxajxfecSQ597"
 			]
 		}
 	},
