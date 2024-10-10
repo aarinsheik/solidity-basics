@@ -91,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/Hotel_room.sol": {
-			"keccak256": "0xe5df92acbcabd1b9d544b80fccdca45cea8fd7e7d93c1d42e04accb11c5cfac4",
+			"keccak256": "0xb07576b1d7cf9fb0d18fdb75de5c75872531d0ed604a40594a7d6ef82bf7a54f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://08995d3c624b1cba54ac1c8488a94e8da3684303831ef8b96bbc085d0ffebe3a",
-				"dweb:/ipfs/QmS4sBs8cTdN4xkm4ebpoYToSFTnYML8mLwjotx4MXjySA"
+				"bzz-raw://d80633eb2b99d835dd9e70b68902311ea99eadd731c3e7423dc2e5e438e2a4df",
+				"dweb:/ipfs/QmZgMMWgpYkYMJywiyyhq2JziQtbC25YFCP2mktZjfZzjV"
 			]
 		}
 	},
